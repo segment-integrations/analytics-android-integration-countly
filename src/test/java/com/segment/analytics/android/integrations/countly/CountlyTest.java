@@ -27,7 +27,8 @@ import static org.mockito.Mockito.verifyNoMoreInteractions;
 import static org.mockito.MockitoAnnotations.initMocks;
 
 @RunWith(RobolectricGradleTestRunner.class)
-@Config(constants = BuildConfig.class, sdk = 18, manifest = Config.NONE) public class CountlyTest {
+@Config(constants = BuildConfig.class, sdk = 18, manifest = Config.NONE)
+public class CountlyTest {
   @Mock Countly countly;
   @Mock Application context;
   @Mock Analytics analytics;

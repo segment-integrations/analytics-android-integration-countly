@@ -1,8 +1,6 @@
 general:
   artifacts:
-    - analytics-core/build/test-report
-    - analytics-integrations/*/build/test-report
-    - build/reports/profile
+    - build/reports/tests
 
 machine:
   environment:
