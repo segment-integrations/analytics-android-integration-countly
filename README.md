@@ -6,6 +6,33 @@ analytics-android-integration-countly
 
 Countly integration for [analytics-android](https://github.com/segmentio/analytics-android).
 
+## Installation
+
+To install the Segment-Countly integration, simply add this line to your gradle file:
+
+```
+compile 'com.segment.analytics.android.integrations:countly:1.0.0:+'
+```
+
+## Usage
+
+After adding the dependency, you must register the integration with our SDK.  To do this, import the Countly integration:
+
+
+```
+import com.segment.analytics.android.integrations.countly.
+```
+
+And add the following line:
+
+```
+analytics = new Analytics.Builder(this, "write_key")
+                .use(CountlyIntegration.FACTORY)
+                .build();
+```
+
+Please see [our documentation](https://segment.com/docs/integrations/countly/) for more information.
+
 ## License
 
 ```
