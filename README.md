@@ -11,7 +11,7 @@ Countly integration for [analytics-android](https://github.com/segmentio/analyti
 To install the Segment-Countly integration, simply add this line to your gradle file:
 
 ```
-compile 'com.segment.analytics.android.integrations:countly:1.0.0:+'
+compile 'com.segment.analytics.android.integrations:countly:+'
 ```
 
 ## Usage
