@@ -43,7 +43,7 @@ dependencies {
   }
 
   provided 'com.segment.analytics.android:analytics:4.0.9'
-  compile 'ly.count.android:sdk:17.09'
+  compile 'ly.count.android:sdk:17.09.1'
 
   testCompile 'junit:junit:4.12'
   testCompile('org.robolectric:robolectric:3.4.2') {
